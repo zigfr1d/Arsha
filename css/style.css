@@ -1,0 +1,183 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main{
+    width: 100%;
+    min-height: 713px;
+    background: #37517E;
+    float: left;
+}
+
+.nav{
+    width: 100%;
+    min-height: 100px;
+    float: left;
+    /* background: red; */
+}
+
+.logo{
+    width: 20%;
+    min-height: inherit;
+    /* background: green; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    width: 80%;
+    min-height: inherit;
+    /* background: yellow; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.menu ul li{
+    list-style-type: none;
+    float: left;
+    margin: 5px;
+    padding: 20px;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    transition: 0.2s;
+}
+
+.menu ul li a:hover{
+    color: #46A7DD;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 32px;
+    font-family: "Jost", sans-serif;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.button{
+    border: 3px solid #46A7DD;
+    float: left;
+    width: 135px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background: #46A7DD;
+}
+.padding-l{
+    padding-left: 10px;
+}
+
+.container{
+    width: 100%;
+    min-height: 560px;
+    float: left;
+    /* background: purple; */
+}
+
+.left{
+    width: 50%;
+    min-height: inherit;
+    /* background: red; */
+    float: left;
+    position: relative;
+    
+
+}
+
+.right{
+    width: 50%;
+    min-height: inherit;
+    /* background: purple; */
+    float: left;
+}
+
+.right img{
+    width: 100%;
+    height: 540px;
+    object-fit: contain;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Jost", sans-serif;
+}
+
+.left::before{
+    content: "Better Solution For Your Business";
+    color: white;
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    float: left;
+}
+
+.left::after{
+    content: "We are team of talanted designers making websites with Boostrap";
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 30px;
+
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    float: left;
+}
+
+
+.footer{
+    width: 100%;
+    min-height: 113px;
+    background: #F3F5FA;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div{
+    width: 20%;
+    min-height: inherit;
+    float: left;
+    /* background: lightblue; */
+}
+
+.footer div img{
+    width: 110px;
+    height: 50px;
+    margin: 40px 60px;
+    transition: 0.5s;
+}
+
+.footer div:hover img{
+    transform: scale(1.3);
+}
